@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/contenidoDuscar"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@drawable/grid_item_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_ciudad"
+                android:id="@+id/textCiudad"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                android:textColor="#ff000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerCiudad"
+                android:background="@drawable/spinner_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_municipio"
+                android:id="@+id/textMunicipio"
+                android:textColor="#ff000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerMunicipio"
+                android:background="@drawable/spinner_selector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_barrio"
+                android:id="@+id/textBarrio"
+                android:textColor="#FF000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerBarrio"
+                android:background="@drawable/spinner_selector"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_tipo"
+                android:id="@+id/textTipoNegocio"
+                android:textColor="#FF000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerTipoNegocio"
+                android:background="@drawable/spinner_selector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_tipo_propiedad"
+                android:id="@+id/textTipoPropiedad"
+                android:textColor="#FF000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerTipoPropiedad"
+                android:background="@drawable/spinner_selector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_estrato"
+                android:id="@+id/textEstrato"
+                android:textColor="#FF000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerEstrato"
+                android:background="@drawable/spinner_selector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_precios"
+                android:id="@+id/textRangoPrecio"
+                android:textColor="#FF000000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_desde"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:id="@+id/textDesdePrecio"
+                android:textColor="#FF000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:hint="@string/app_valor"
+                android:id="@+id/editTextPrecioDesde"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_hasta"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:id="@+id/textHastaPrecio"
+                android:textColor="#FF000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:hint="@string/app_valor"
+                android:id="@+id/editTextPrecioHasta"
+                android:layout_gravity="center_horizontal" />
+
+
+            <com.appgestor.serviarriendos.views.ButtonRectangle
+                android:id="@+id/btnBuscar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#880E4F"
+                android:text="@string/app_buscar" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgDatos"
+            android:src="@drawable/nohaydatos"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.appgestor.serviarriendos.views.ProgressBarCircularIndetermininate
+            android:id="@+id/progressBarCircularbusqueda"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@color/color_progressbar" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+

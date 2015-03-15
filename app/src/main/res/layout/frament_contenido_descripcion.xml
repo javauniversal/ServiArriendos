@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/scrollView1"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+
+
+   <LinearLayout
+        android:id="@+id/informationGeneral"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <RelativeLayout
+           android:id="@+id/txt"
+           android:layout_width="fill_parent"
+           android:layout_height="97dp"
+           android:orientation="vertical">
+
+           <Gallery
+               android:id="@+id/gallery"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/progregaleria"
+               android:layout_marginTop="0.2sp"/>
+
+           <com.appgestor.serviarriendos.views.ProgressBarCircularIndetermininate
+               android:id="@+id/progregaleria"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:background="@color/color_progressbar"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true" />
+
+       </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/tabla_cuerpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_background"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7.0dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dip"
+                    style="@style/ListItemTitle"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/ficha"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_grid_item_bg"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:padding="1.0dp"
+                    style="@style/PrimaryText"
+                    android:text="@string/ciu" />
+
+                <TextView
+                    android:id="@+id/ciudadTextViewt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="rererewr" />
+            </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="2dp"
+                style="@style/PrimaryText"
+                android:text="@string/barr" />
+
+            <TextView
+                android:id="@+id/barrio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:text="svfdghjmnhbg"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/tipoN"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/tipoInmueble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="hyymtnrbgevyjuk" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow16"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/nego"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/tipoNegocio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="4dp"
+                android:layout_marginBottom="3dp"
+                android:text="htrgefyjnfbgdbrngb"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow19"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/pre"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/precioInmueble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="gfdgfdg"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/habi"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/alcobasTextViewt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="ddddddd" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/bano"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/banosTextViewt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="dfdfdfdfd"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/area"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/areaTextViewt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="ntybrtgevyuik" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/estrato"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/estrato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="wewewewee"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="5"
+                android:padding="2dp"
+                android:text="@string/admin"
+                style="@style/PrimaryText" />
+
+            <TextView
+                android:id="@+id/cuotaAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"
+                android:text="ntbgrvfyhb"/>
+
+        </TableRow>
+
+        <com.appgestor.serviarriendos.views.ButtonRectangle
+            android:id="@+id/streeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#880E4F"
+            android:text="@string/app_streeview" />
+    </TableLayout>
+    <!-- Contacto del inmueble -->
+       <com.appgestor.serviarriendos.views.ProgressBarCircularIndetermininate
+           android:id="@+id/progreemail"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:visibility="gone"
+           android:background="@color/color_progressbar"
+           android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:id="@+id/contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_background"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="0.3"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:text="@string/info"
+                style="@style/ListItemTitle"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_grid_item_bg"
+            android:stretchColumns="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                style="@style/PrimaryText"
+                android:text="@string/contacto" />
+
+            <TextView
+                android:id="@+id/nombreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="4dp"
+                android:layout_marginBottom="3dp"
+                android:text="rgetgteghtbgb"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"
+                style="@style/PrimaryText"
+                android:text="@string/correo"/>
+
+            <TextView
+                android:id="@+id/emailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="4dp"
+                android:autoLink="email"
+                android:layout_marginBottom="3dp"
+                android:text="fwggrwgrgeqfb" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_grid_item_bg"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"
+                style="@style/PrimaryText"
+                android:text="@string/inmo" />
+
+            <TextView
+                android:id="@+id/inmobiliariaTextViewi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="4dp"
+                android:layout_marginBottom="3dp"
+                android:text="ththyrhryhry"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"
+                style="@style/PrimaryText"
+                android:text="@string/telefon" />
+
+            <TextView
+                android:id="@+id/telefonoTextViewt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="4dp"
+                android:autoLink="phone"
+                android:layout_marginBottom="3dp"
+                android:text="bgrbgrbgbgr" />
+        </TableRow>
+
+        <com.appgestor.serviarriendos.views.ButtonRectangle
+            android:id="@+id/consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#880E4F"
+            android:text="@string/arrendador" />
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="2dip"
+        android:descendantFocusability="blocksDescendants">
+
+        <com.appgestor.serviarriendos.views.ButtonRectangle
+            android:id="@+id/btnInformacion"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="#880E4F"
+            android:text="Más Info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txtCiudad"
+            android:layout_marginTop="9dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnInformacion"
+            android:layout_toEndOf="@+id/btnInformacion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="New Text"
+            android:id="@+id/txtPrecio"
+            android:layout_below="@+id/txtCiudad"
+            android:layout_toRightOf="@+id/btnInformacion"
+            android:layout_toEndOf="@+id/btnInformacion" />
+
+    </RelativeLayout>
+
+</LinearLayout>

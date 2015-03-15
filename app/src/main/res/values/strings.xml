@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Servicio de Arriendos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_hint">Content</string>
+    <string name="drawer_hint">Drawer</string>
+    <string name="rounded">See Rounded</string>
+    <string name="squared">See Squared</string>
+
+    <!-- Nombres de los items -->
+    <string-array name="nav_drawer_items">
+        <item >Inmuebles más destacados</item>
+        <item >Lista de servicios</item>
+        <item >Buscar inmueble</item>
+        <item >Buscar inmueble en los mapas</item>
+        <item >Inmuebles en ofertas de ventas</item>
+        <item >¿Quiere saber cuánto vale su casa?</item>
+        <item >Salir app</item>
+    </string-array>
+
+    <!-- Iconos de los items -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_help</item>
+        <item>@drawable/ic_action_dial_pad</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_view_as_list</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_cancel</item>
+        <item>@drawable/ic_action_labels</item>
+    </array>
+
+    <!-- Textos de la plantilla busqueda de ariendos -->
+    <string name="app_ciudad">Ciudad</string>
+    <string name="app_municipio">Municipio</string>
+    <string name="app_barrio">Barrio</string>
+    <string name="app_tipo">Tipo de negocio</string>
+    <string name="app_tipo_propiedad">Tipo de propiedad</string>
+    <string name="app_estrato">Estrato</string>
+    <string name="app_precios">Rango de precios</string>
+    <string name="app_valor">$ 0.00</string>
+    <string name="app_desde">Precio desde:</string>
+    <string name="app_hasta">Precio hasta:</string>
+    <!-- Fin -->
+
+    <!-- Textos botoones generales -->
+    <string name="app_buscar">Buscar</string>
+    <string name="app_streeview">Street View Maps</string>
+    <string name="arrendador">Pulse aquí para contactar al arrendador</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <!-- Fin -->
+
+    <!-- Textos Generales de la aplicación -->
+    <string name="acercade">El nombre Central de Arriendos las marcas comerciales y los logotipos relacionados y el logo son marca comerciales de Poo Code o entidades vinculadas.</string>
+    <string name="acercadesecundary">Advertencia: este programa está protegido por leyes de propiedad intelectual. La distribución o reproducción no autorizada de este programa o de cualquiera de sus partes penadas con sanciones penales y civiles y será objeto de todas las acciones juridiciales que correspondan.     </string>
+    <string name="version">Versión 5.5.1</string>
+    <string name="copyright">Copyright 2013 2014</string>
+    <string name="codigoBuscar">Buscar por código</string>
+    <string name="tipoN">Tipo de Negocio</string>
+    <string name="muni">Municipio</string>
+    <string name="barr">Barrio</string>
+    <string name="nego">Tipo de Propiedad</string>
+    <string name="buscarIn">Buscar</string>
+    <string name="buscarAvamzada">Avanzada</string>
+    <string name="ciu">Ciudad</string>
+    <string name="pre">Precio</string>
+    <string name="desc">Desde</string>
+    <string name="hast">Hasta</string>
+    <string name="area">Área</string>
+    <string name="estrato">Estrato</string>
+    <string name="habi">Nro. Habitaciones</string>
+    <string name="bano">Nro. Baños</string>
+    <string name="Descripcion_imagen">Galeria de imagen</string>
+    <string name="ficha">Ficha Técnica</string>
+    <string name="inmo">Inmobiliaria</string>
+    <string name="admin">Administración</string>
+    <string name="street">Consulte el área en Google Street View</string>
+    <string name="info">Información de Contacto</string>
+    <string name="contacto">Contacto</string>
+    <string name="correo">E-mail</string>
+    <string name="telefon">Telefono</string>
+    <string name="codigo">Código</string>
+    <string name="codigo_cusqueda">Introduzca el código para la búsqueda</string>
+    <string name="sinConexion">Sin conexión</string>
+    <string name="sinDatos">No hay resultados</string>
+
+    <string name="titulo">Todo Servicios y Arriendos</string>
+    <!-- Fin -->
+
+    <!-- Apikey del mama de google -->
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyABGyEbiFELzZerUlqN9v20JmsX7NCCi_U</string>
+    <!-- Fin -->
+
+    <!-- String de conexion a datos vista-->
+    <string name="conexion_datos">Se requiere conexión a datos para ejecutar esta opción ! </string>
+    <!-- Fin -->
+</resources>
